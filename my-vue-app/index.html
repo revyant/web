@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your online video game store. Find the latest releases, consoles, accessories, and more. Shop today and enjoy the best entertainment!">
+    <meta name="keywords" content="video game store, video games, buy video games, consoles, video game accessories, video game releases, entertainment, online games">
+    <meta name="author" content="NovaGen Store">
+    <meta name="robots" content="index, follow">
+    <title>NovaGen Store</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+      <header>
+        <a href="#" class="logo">NovaGen</a>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="Games.html">Games</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="action">
+          <div class="searchBx">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <input type="text" placeholder="Search Games">
+          </div>
+        </div>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+
+      </header>
+
+      <!-- Home Banner-->
+      <div class="banner animeX" id="home">
+        <div class="bg">
+          <div class="content">
+            <h2>A New Home for<br>
+            Game Lovers</h2>
+            <p>The favorite place of the Gammers to buy their cheap and best quality second hand playstation games.</p>
+            <a href="#" class="btn"> Join Now</a>
+          </div>
+          <img src="playstation.png.png">
+        </div>
+      </div>
+
+      <!-- About -->
+      <div class="about animeX" id="about">
+        <div class="contentBx">
+          <h2>About Us</h2>
+          <p>
+           
+            
+          Welcome to NovaGen, your go-to destination for pre-owned PlayStation 4 and PlayStation 5 games. We offer a diverse range of high-quality used games at unbeatable prices, thoroughly inspected to ensure top performance. Save money and promote sustainability by giving games a second life with NovaGen. Enjoy a seamless browsing, purchasing, and playing experience today!
+
+
+          </p>
+          <a href="#">Read more</a>
+        </div>
+        <img src="thelastofus.png">
+      </div>
+
+      <!-- Games-->
+      <div class="games animeX" id="games">
+        <h2>Popular Games</h2>
+        <ul>
+          <li class="list active" data-filter="all">All</li>
+          <li class="list" data-filter="ps4">Ps4 Games</li>
+          <li class="list" data-filter="ps5">Ps5 Games</li>
+        </ul>
+        <div class="cardBx">
+          <div class="card" data-item="ps4">
+            <img src="gtavps4.png" style="max-width: 300px;">
+            <div class="content">
+              <h4>Grand Theft Auto</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€10</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps4">
+            <img src="godofwar.jpg" style="max-width: 300px;">
+            <div class="content">
+              <h4>God Of War</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€17</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps4">
+            <img src="batman.png" style="max-width: 300px;">
+            <div class="content">
+              <h4>Batman: Arkham Knight</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€5</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps4">
+            <img src="thelastofus (1).png" style="max-width: 300px;">
+            <div class="content">
+              <h4>The Last Of Us Remastered</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€20</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps4">
+            <img src="spiderman.png" style="max-width: 300px;">
+            <div class="content">
+              <h4>Spiderman Ps Edition</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€27</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps4">
+            <img src="asf.png" style="max-width: 300px;">
+            <div class="content">
+              <h4>Far Cry 5</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€11</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps4">
+            <img src="Cyberpunk_2077_box_art.jpg" style="max-width: 300px;">
+            <div class="content">
+              <h4>Cyberpunk 2077</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€18</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps4">
+            <img src="Elder ring.png" style="max-width: 300px;">
+            <div class="content">
+              <h4>Elder Ring</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€35</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps5">
+            <img src="ASSET_MMS_107261407.png" style="max-width: 300px;">
+            <div class="content">
+              <h4>Mortal Kombat 1</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€40</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps5">
+            <img src="Lies_of_p_cover_art.jpg" style="max-width: 300px;">
+            <div class="content">
+              <h4>Lies Of P</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€35</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps5">
+            <img src="E2vZwVaDJbhLZpJo7Q10IyYo.png" style="max-width: 300px;">
+            <div class="content">
+              <h4>Stray</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€15</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps5">
+            <img src="Ghost_of_Tsushima.jpg" style="max-width: 300px;">
+            <div class="content">
+              <h4>Ghost Of Tsushima</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€40</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps5">
+            <img src="1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.png" style="max-width: 300px;">
+            <div class="content">
+              <h4>Spiderman 2</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€55</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps5">
+            <img src="40e7cfd126a11fe5118310ebce6d9b3a23e7cabaca717217.png" style="max-width: 300px;">
+            <div class="content">
+              <h4>Stellar Blade</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€40</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps5">
+            <img src="XfXOtprcCHEuNWZXZaWI3jB6.png" style="max-width: 300px;">
+            <div class="content">
+              <h4>Rise Of The Ronin</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€40</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="ps5">
+            <img src="images (2).jpg" style="max-width: 300px;">
+            <div class="content">
+              <h4>Gothic Remake</h4>
+              <div class="progress-line"><span></span></div>
+              <div class="info">
+                <p>Pricing<br><span>€35</span></p>
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Footer -->
+      <footer>
+        <div class="info">
+          <a href="#" class="logo">NovaGen</a>
+          <p><i class='bx bx-copyright' ></i>2024 All Rights Reserved</p>
+          <ul>
+            <li><a href="#"><i class='bx bxl-facebook' ></i></a></li>
+            <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+            <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+            <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
+          </ul>
+        </div>
+      </footer>
+
+      <script>
+        /* Sticky Navbar */
+        window.addEventListener('scroll',function(){
+          var header = document.querySelector('header');
+          header.classList.toggle('sticky',window.scrollY > 0);
+        });
+
+        /* Responsive NavBar */
+
+        function toggleMenu(){
+          const toggleMenu = document.querySelector('.toggleMenu');
+          const nav = document.querySelector('.nav');
+          toggleMenu.classList.toggle('active')
+          nav.classList.toggle('active')
+        }
+
+        /* Scrolling Animation Effects */
+        window.addEventListener('scroll',function(){
+          var anime = document.querySelectorAll('.animeX');
+
+          for(var s = 0; s < anime.length; s++){
+            var windowheight = window.innerHeight;
+            var animetop = anime[s].getBoundingClientRect().top;
+            var animepoint = 150;
+
+            if(animetop < windowheight - animepoint){
+              anime[s].classList.add('active');
+            }
+            else{
+              anime[s].classList.remove('active');
+            }
+          }
+        })
+
+
+
+        /* Filterable Cards */
+
+        let list = document.querySelectorAll('.list');
+        let card = document.querySelectorAll('.card');
+
+        for(let i = 0; i<list.length; i++){
+          list[i].addEventListener('click',function(){
+            for(let j=0; j<list.length; j++){
+              list[j].classList.remove('active');
+            }
+            this.classList.add('active');
+
+            let dataFilter = this.getAttribute('data-filter');
+
+            for( let k=0; k<card.length; k++)
+            {
+              card[k].classList.remove('active');
+              card[k].classList.add('hide');
+
+              if(card[k].getAttribute('data-item') == dataFilter || dataFilter == 'all'){
+                card[k].classList.remove('hide');
+                card[k].classList.add('active');
+              }
+            }
+          })
+        }
+      </script>
+  
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
